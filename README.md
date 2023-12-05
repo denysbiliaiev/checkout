@@ -12,6 +12,11 @@
     ```
     mvn -Dmaven.test.skip=true spring-boot:run 
     ```
+    or
+    ```
+    mvn package
+    java -jar ./target/checkout-0.0.1-SNAPSHOT.jar 
+    ```
 - DB tables are automatically created, data is inserted from import.sql
 
 ### How I approached the problem
